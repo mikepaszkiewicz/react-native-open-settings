@@ -11,7 +11,10 @@ npm install react-native-open-settings
 ```
 
 ### iOS
-Add `React Native Open Settings` to project libraries.
+- In the Xcode project navigator, right click ```YourProject/Libraries``` and select ```Add Files to YourProject```
+- Find the react-native-open-settings repository in node_modules for your React Native Project
+- Add the Xcode project React Native Open Settings.xcodeproj
+- Finally, go to ```YourProject > Build Phases > Link Binary With Libraries > Hit + > Add libReactNativeOpenSettings.a```
 
 ### Android
 
